@@ -3,7 +3,7 @@
 `yarn hardhat vars set ALCHEMY_API_KEY "YOUR_TOKEN_HERE"`
 `yarn hardhat vars set ETHERSCAN_API_KEY "YOUR_TOKEN_HERE"`
 
-
+`npx hardhat vars list`
 
 deploy contract
 ```shell
