@@ -1,3 +1,25 @@
+# set up env
+
+`yarn hardhat vars set ALCHEMY_API_KEY "YOUR_TOKEN_HERE"`
+`yarn hardhat vars set ETHERSCAN_API_KEY "YOUR_TOKEN_HERE"`
+
+
+
+deploy contract
+```shell
+npx hardhat ignition deploy ./ignition/modules/<contractName>.ts --network <network>
+```
+
+run scripts
+```shell
+npx hardhat run ./scripts/<scriptName>.ts --network <network>
+```
+
+contract verification
+```shell
+npx hardhat run ./verify/<name>.ts --network <network> <contractAddress>
+```
+
 # Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
